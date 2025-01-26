@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio de Yanis Haddouch</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Yanis Haddouch, développeur web fullstack en formation chez Live Campus.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"/>
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="js/navbar.js" defer></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.4.0/purify.min.js"></script>
+    <script src="js/form.js" async></script>
+<script>
+  emailjs.init("Ra-g5RTMLLSAvNL68"); // Remplacez par votre clé publique
+</script>
+
+</head>
+<body>
+
+    <!-- Menu de navigation -->
+
+    <header>
+        <nav id="navbar">
+            <ul class="nav">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">Ma personne</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contactez moi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Section interface d'entrée -->
+
+        <section id="home">
+            <div class="fullwidth">
+                <h1 class="animate__animated animate__fadeInDown">Yanis Haddouch</h1> 
+                <p>Apprenti développeur fullstack</p>
+                <a href="#about" class="btn">En connaître plus sur moi</a>
+            </div>    
+        </section>
+
+        <!-- Section interface "Qui suis-je ?" -->
+
+        <section id="about" class="row">
+            <div class="col-6 img-container">
+                <img class="img-rectangle" src="img/7dcbd534a8015777822b053bb6986ba9.jpg" alt="Setup de développeur">
+            </div> 
+            <div class="col-6 text-container">
+                <h2>Qui suis-je ?</h2>
+
+                <p>
+                    J’ai 21 ans, je viens de Guyancourt (78), et après un <b>BTS en Systèmes Numériques option Informatique et Réseaux à l'ESIEE-IT</b>, je suis maintenant en <b>Bachelor Développeur Full Stack Data & DevOps chez LiveCampus</b>.
+                </p>
+                <p>
+                    <span style="text-decoration: underline;">Mon objectif ?</span> Trouver une alternance pour continuer à bosser sur des projets qui mêlent innovation et code.
+                </p>
+                <p>
+                    Pendant 2 ans, j’ai été webmaster chez MyWebo, une agence où j’ai touché à tout : création de sites WordPress, Prestashop, développement de modules sur-mesure et gestion des demandes techniques des clients. J’ai même développé un système de tickets avec messagerie sur Adalo !
+                </p>
+                <p>
+                    Avant ça, j’ai bossé comme gestionnaire SAV chez Auchan, où j’ai appris à gérer les clients (et leurs galères) avec organisation et efficacité. Aujourd’hui, je veux continuer à coder, résoudre des problèmes et travailler en équipe sur des projets qui me challengent.
+                </p>
+                <p>
+                    Mes outils de prédilection ? HTML, CSS, PHP, JavaScript, MySQL, Docker, et Prestashop, sans oublier WordPress avec Elementor. En gros, je suis à l’aise sur le front et le back, et toujours prêt à apprendre.
+                </p>
+                <p>
+                    En dehors du taff, je suis fan de sport (parkour, muscu, calisthénie), de tech (montage PC, jeux vidéo, et création de sites web) et comme la plupart des jeunes de mon ages les jeux vidéo.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="col-8 skills-container">
+                <h2>Compétences</h2>
+                <p>Depuis toujours passionné par l’informatique, j’ai développé au fil des années un ensemble de compétences solides, que ce soit grâce à mes études, mes projets personnels ou mes expériences en alternance. J’aime trouver des solutions pratiques et innovantes, et je suis motivé à apporter mes connaissances et mon savoir-faire pour vous aider à concrétiser vos projets.</p>
+                <p>Voici un aperçu des compétences que je serais heureux de mettre à votre service :</p>
+            </div>
+            <div class="row skills-container">
+                <div class="col-4">
+                    <ul class="skills-list">
+                        <h3>Front-End</h3>
+                            <li>
+                                <span class="skills-label">HTML :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:75%">75%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skills-label">CSS :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:50%">50%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skills-label">JavaScript :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:25%">25%</div>
+                                </div>
+                            </li>
+                        <h3>Back-End</h3>
+                            <li>
+                                <span class="skills-label">PHP :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:55%">55%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skills-label">Smarty :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:40%">40%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skills-label">MySQL :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:50%">50%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skills-label">Python :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:25%">25%</div>
+                                </div>
+                            </li>
+                        <h3>CMS</h3>
+                            <li>
+                                <span class="skills-label">Prestashop :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:60%">60%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skills-label">WordPress (Elementor):</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:80%">80%</div>
+                                </div>
+                            </li>
+                        <h3>Divers</h3>
+                            <li>
+                                <span class="skills-label">Docker :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:25%">25%</div>
+                                </div>
+                            </li>  
+                            <li>
+                                <span class="skills-label">GitHub :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:30%">30%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skills-label">VMWare :</span>
+                                <div class="w3-light-grey w3-round-large">
+                                    <div class="w3-container w3-blue w3-round-large" style="width:40%">40%</div>
+                                </div>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-4 skills-container-img">
+                    <img style="width: 100%;" src="img/cv-livecampus-yanis-haddouch_page-0001.jpg" alt="CV de Yanis Haddouch">
+                    <a href="index.html" target="_blank" download="cv-livecampus-yanis-haddouch_page-0001.pdf">Télécharger en PDF</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="col-8 contact-container">
+                    <div class="form">
+                      <div class="contact-info">
+                        <h3>Travaillons ensemble !</h3>
+                        <p>
+                          Mon profil vous intéresse ? Vous avez un projet à me confier ? 
+                          N’hésitez pas à me contacter pour en discuter. 
+                          Je suis disponible pour  un entretien, un appel ou un échange par mail. À très vite !
+                        </p>
+              
+                        <div class="info">
+                          <div class="information">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon-contact" height="28" width="28" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#001f3f" d="M565.6 36.2C572.1 40.7 576 48.1 576 56l0 336c0 10-6.2 18.9-15.5 22.4l-168 64c-5.2 2-10.9 2.1-16.1 .3L192.5 417.5l-160 61c-7.4 2.8-15.7 1.8-22.2-2.7S0 463.9 0 456L0 120c0-10 6.1-18.9 15.5-22.4l168-64c5.2-2 10.9-2.1 16.1-.3L383.5 94.5l160-61c7.4-2.8 15.7-1.8 22.2 2.7zM48 136.5l0 284.6 120-45.7 0-284.6L48 136.5zM360 422.7l0-285.4-144-48 0 285.4 144 48zm48-1.5l120-45.7 0-284.6L408 136.5l0 284.6z"/></svg>
+                            <p>Guyancourt (78280)</p>
+                          </div>
+                          <div class="information">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon-contact" height="28" width="28" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#001f3f" d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>                            <p>yanishaddouch@gmail.com</p>
+                          </div>
+                          <div class="information">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon-contact" height="28" width="28" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#001f3f" d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
+                            <p>06 52 60 79 02</p>
+                          </div>
+                        </div>
+              
+                        <div class="social-media">
+                          <p>Retrouvez moi sur :</p>
+                          <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/yanis-haddouch/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#001f3f" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                            </a>
+                            <a href="https://github.com/yanishaddouch78" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#001f3f" d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM265.8 407.7c0-1.8 0-6 .1-11.6c.1-11.4 .1-28.8 .1-43.7c0-15.6-5.2-25.5-11.3-30.7c37-4.1 76-9.2 76-73.1c0-18.2-6.5-27.3-17.1-39c1.7-4.3 7.4-22-1.7-45c-13.9-4.3-45.7 17.9-45.7 17.9c-13.2-3.7-27.5-5.6-41.6-5.6s-28.4 1.9-41.6 5.6c0 0-31.8-22.2-45.7-17.9c-9.1 22.9-3.5 40.6-1.7 45c-10.6 11.7-15.6 20.8-15.6 39c0 63.6 37.3 69 74.3 73.1c-4.8 4.3-9.1 11.7-10.6 22.3c-9.5 4.3-33.8 11.7-48.3-13.9c-9.1-15.8-25.5-17.1-25.5-17.1c-16.2-.2-1.1 10.2-1.1 10.2c10.8 5 18.4 24.2 18.4 24.2c9.7 29.7 56.1 19.7 56.1 19.7c0 9 .1 21.7 .1 30.6c0 4.8 .1 8.6 .1 10c0 4.3-3 9.5-11.5 8C106 393.6 59.8 330.8 59.8 257.4c0-91.8 70.2-161.5 162-161.5s166.2 69.7 166.2 161.5c.1 73.4-44.7 136.3-110.7 158.3c-8.4 1.5-11.5-3.7-11.5-8zm-90.5-54.8c-.2-1.5 1.1-2.8 3-3.2c1.9-.2 3.7 .6 3.9 1.9c.3 1.3-1 2.6-3 3c-1.9 .4-3.7-.4-3.9-1.7zm-9.1 3.2c-2.2 .2-3.7-.9-3.7-2.4c0-1.3 1.5-2.4 3.5-2.4c1.9-.2 3.7 .9 3.7 2.4c0 1.3-1.5 2.4-3.5 2.4zm-14.3-2.2c-1.9-.4-3.2-1.9-2.8-3.2s2.4-1.9 4.1-1.5c2 .6 3.3 2.1 2.8 3.4c-.4 1.3-2.4 1.9-4.1 1.3zm-12.5-7.3c-1.5-1.3-1.9-3.2-.9-4.1c.9-1.1 2.8-.9 4.3 .6c1.3 1.3 1.8 3.3 .9 4.1c-.9 1.1-2.8 .9-4.3-.6zm-8.5-10c-1.1-1.5-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3c1.1 1.5 1.1 3.3 0 4.1c-.9 .6-2.6 0-3.7-1.5zm-6.3-8.8c-1.1-1.3-1.3-2.8-.4-3.5c.9-.9 2.4-.4 3.5 .6c1.1 1.3 1.3 2.8 .4 3.5c-.9 .9-2.4 .4-3.5-.6zm-6-6.4c-1.3-.6-1.9-1.7-1.5-2.6c.4-.6 1.5-.9 2.8-.4c1.3 .7 1.9 1.8 1.5 2.6c-.4 .9-1.7 1.1-2.8 .4z"/></svg>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="contact-form">
+                        <form id="contactForm" action="index.html" autocomplete="off">
+                          <h3 class="title">Contactez moi</h3>
+                          <div class="input-container">
+                            <input type="text" id="name" name="name" class="input" />
+                            <label>NOM Prénom</label>
+                            <span>NOM Prénom</span>
+                          </div>
+                          <div class="input-container">
+                            <input type="email" id="email" name="email" class="input" />
+                            <label>Email</label>
+                            <span>Email</span>
+                          </div>
+                          <div class="input-container">
+                            <input type="tel" id="tel" name="phone" class="input" />
+                            <label>Phone</label>
+                            <span>Phone</span>
+                          </div>
+                          <div class="input-container">
+                            <input type="text" id="subject" name="subject" class="input" />
+                            <label>Objet</label>
+                            <span>Objet</span>
+                          </div>
+                          <div class="input-container textarea">
+                            <textarea name="message" id="message" class="input"></textarea>
+                            <label>Message</label>
+                            <span>Message</span>
+                          </div>
+                          <input type="submit" value="Envoyer" class="btn" />
+                        </form>
+                      </div>
+                    </div>
+            </div>
+
+                  <div id="modal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Votre mail a bien été envoyé. Merci de m'avoir contacté !</p>
+                    </div>
+                  </div>
+                  
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Yanis Haddouch. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
